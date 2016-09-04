@@ -1,0 +1,650 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-09-04 12:07+0200\n"
+"PO-Revision-Date: 2016-09-04 12:18+0200\n"
+"Last-Translator: Daniel Sallin <info@daniel-stp.fr>\n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+
+#: dmap2gcode.py:114
+msgid "(Psyco Loaded)"
+msgstr "(Psyco chargé)"
+
+#: dmap2gcode.py:175
+msgid "Python Imaging Library (PIL) was not found"
+msgstr "Python Imaging Library (PIL) n'a pas été trouvé"
+
+#: dmap2gcode.py:176
+msgid "    The program will function but some functionality will be disabled."
+msgstr ""
+"    Le programme fonctionnera, mais certaines fonctionnalités sont "
+"désactivées."
+
+#: dmap2gcode.py:177
+msgid "    PIL enables more image file formats and enables the"
+msgstr "    PIL permet plus de formats de fichiers d'image et de permettre de"
+
+#: dmap2gcode.py:178
+msgid "    preview image to scale with the window size."
+msgstr "    prévisualiser l’image à l'échelle de la taille de la fenêtre."
+
+#: dmap2gcode.py:180
+msgid "NumPy was not found."
+msgstr "NumPy n'a pas été trouvé."
+
+#: dmap2gcode.py:181
+msgid "    The program will function properly but the speed will be reduced."
+msgstr ""
+"    Le programme fonctionnera correctement, mais la vitesse sera réduite."
+
+#: dmap2gcode.py:182
+msgid ""
+"    With NumPy the speed of gcode generation is about eight times faster."
+msgstr ""
+"    Avec NumPy la vitesse de génération du G-code est d'environ huit fois "
+"plus rapide."
+
+#: dmap2gcode.py:392
+msgid "Welcome to dmap2gcode"
+msgstr "Bienvenue avec dmap2gcode"
+
+#: dmap2gcode.py:404
+msgid "Save G-Code"
+msgstr "Enregistrer"
+
+#: dmap2gcode.py:405
+msgid "Open Roughing Settings"
+msgstr "Paramètres d’ébauche"
+
+#: dmap2gcode.py:423
+msgid "Image Size:"
+msgstr "Taille image:"
+
+#: dmap2gcode.py:425
+msgid "Image Height"
+msgstr "Hauteur image"
+
+#: dmap2gcode.py:433
+msgid "Image Width"
+msgstr "Largeur image"
+
+#: dmap2gcode.py:437
+msgid "Pixel Size"
+msgstr "Taille pixel"
+
+#: dmap2gcode.py:441
+msgid "Image Properties:"
+msgstr "Propriété d’image:"
+
+#: dmap2gcode.py:459
+msgid "Depth Color"
+msgstr "Prof. de couleur"
+
+#: dmap2gcode.py:460
+msgid "Black"
+msgstr "Noir"
+
+#: dmap2gcode.py:464
+msgid "White"
+msgstr "Blanc"
+
+#: dmap2gcode.py:469
+msgid "Normalize Depth"
+msgstr "Normaliser prof."
+
+#: dmap2gcode.py:478
+msgid "Cut Top Surface"
+msgstr "Couper Surface"
+
+#: dmap2gcode.py:483
+msgid "Top Tolerance"
+msgstr "Tolérance sur"
+
+#: dmap2gcode.py:492
+msgid "Tool Properties:"
+msgstr "Propriétés d'outils:"
+
+#: dmap2gcode.py:494
+msgid "Tool DIA"
+msgstr "Diamètre d’outil"
+
+#: dmap2gcode.py:501
+msgid "Tool End"
+msgstr "Type d’outil"
+
+#: dmap2gcode.py:505
+msgid "V-Bit Angle"
+msgstr "Angle V-Bit"
+
+#: dmap2gcode.py:511
+msgid "Gcode Properties:"
+msgstr "Propriété G-Code:"
+
+#: dmap2gcode.py:513
+msgid "Scan Pattern"
+msgstr "Balayage modèle"
+
+#: dmap2gcode.py:517
+msgid "Cut Perimeter"
+msgstr "Couper périmètre"
+
+#: dmap2gcode.py:522
+msgid "Scan Direction"
+msgstr "Direction scan"
+
+#: dmap2gcode.py:526
+msgid "Feed Rate"
+msgstr "Vitesse dépl."
+
+#: dmap2gcode.py:533
+msgid "Plunge Feed"
+msgstr "Vitesse plongée"
+
+#: dmap2gcode.py:540
+msgid "Stepover"
+msgstr "Enjambée"
+
+#: dmap2gcode.py:547
+msgid "Z Safe"
+msgstr "Sécurité Z"
+
+#: dmap2gcode.py:554
+msgid "Max Cut Depth"
+msgstr "Profondeur Max"
+
+#: dmap2gcode.py:581
+msgid "Open G-Code File"
+msgstr "Ouvrir fichier G-Code"
+
+#: dmap2gcode.py:584
+msgid "Open Image File"
+msgstr "Ouvrir fichier image"
+
+#: dmap2gcode.py:587
+msgid "Save G-Code File"
+msgstr "Enregistrer fichier G-Code"
+
+#: dmap2gcode.py:589
+msgid "Save Roughing G-Code File"
+msgstr "Sauve le fichier d’ébauche G-Code"
+
+#: dmap2gcode.py:592
+msgid "Write To Axis and Exit"
+msgstr "Ecrire à l'axe et quitter"
+
+#: dmap2gcode.py:595
+msgid "Exit"
+msgstr "Quitter"
+
+#: dmap2gcode.py:596
+msgid "File"
+msgstr "Fichier"
+
+#: dmap2gcode.py:599
+msgid "Copy G-Code Data to Clipboard"
+msgstr "Copie des données G-Code dans le presse-papiers"
+
+#: dmap2gcode.py:601
+msgid "Edit"
+msgstr "Editer"
+
+#: dmap2gcode.py:604
+msgid "Refresh"
+msgstr "Rafraichir"
+
+#: dmap2gcode.py:608
+msgid "Show Origin Axis"
+msgstr "Voir l’axe de l’origine"
+
+#: dmap2gcode.py:611
+msgid "View"
+msgstr "Vue"
+
+#: dmap2gcode.py:614
+msgid "General Settings"
+msgstr "Paramètre général"
+
+#: dmap2gcode.py:616 dmap2gcode.py:2284
+msgid "Roughing Settings"
+msgstr "Paramètres ébauche"
+
+#: dmap2gcode.py:619
+msgid "Settings"
+msgstr "Paramètres"
+
+#: dmap2gcode.py:622
+msgid "About"
+msgstr "A propos"
+
+#: dmap2gcode.py:623
+msgid "Help (Web Page)"
+msgstr "Aide (Site Web)"
+
+#: dmap2gcode.py:624
+msgid "Help"
+msgstr "Aide"
+
+#: dmap2gcode.py:646
+msgid "Unable interpret command line options"
+msgstr "Impossible d'interpréter les options de ligne de commande"
+
+#: dmap2gcode.py:651
+msgid "Usage: python dmap2gcode.py [-g file]"
+msgstr "Utilisation: python dmap2gcode.py [-g fichier]"
+
+#: dmap2gcode.py:652
+msgid "-g    : dmap2gcode gcode output file to read (also --gcode_file)"
+msgstr ""
+"-g    : fichier de sortie gcode de dmap2gcode à lire (ou  --gcode_file)"
+
+#: dmap2gcode.py:653
+msgid "-h    : print this help (also --help)\n"
+msgstr "-h    : affiche cette aide (ou --help)\n"
+
+#: dmap2gcode.py:666
+msgid " Recalculation required."
+msgstr " Re-calcul requis"
+
+#: dmap2gcode.py:673
+msgid " Value should be a number. "
+msgstr " La valeur doit être un nombre."
+
+#: dmap2gcode.py:709
+msgid "Replace"
+msgstr "Remplace"
+
+#: dmap2gcode.py:709
+msgid "Replace Exiting Configuration File?\n"
+msgstr "Remplace un fichier de configuration existant?\n"
+
+#: dmap2gcode.py:720 dmap2gcode.py:1680
+#, python-format
+msgid "Unable to open file for writing: %s"
+msgstr "Impossible d'ouvrir le fichier pour l'écriture: %s"
+
+#: dmap2gcode.py:729
+#, python-format
+msgid "Configuration File Saved: %s"
+msgstr "Fichier de configuration enregistrer: %s."
+
+#: dmap2gcode.py:810
+msgid "No Image Loaded"
+msgstr "Pas ouvert d'image"
+
+#: dmap2gcode.py:928
+msgid "Converter Error: Setting to, Alternating"
+msgstr "Erreur de conversion: Réglage en alternance"
+
+#: dmap2gcode.py:1084
+msgid "G-Code Sent to Clipboard"
+msgstr "Copie des données G-Code dans le presse-papiers"
+
+#: dmap2gcode.py:1101
+msgid "Exiting!"
+msgstr "Quitter!"
+
+#: dmap2gcode.py:1139
+msgid " Height should be greater than 0 "
+msgstr " La hauteur doit être supérieure à 0"
+
+#: dmap2gcode.py:1154
+msgid " Tolerance should be less than or equal to 0 "
+msgstr " La tolérance doit être inférieure ou égale à 0"
+
+#: dmap2gcode.py:1172 dmap2gcode.py:1262
+msgid " Diameter should be greater than 0 "
+msgstr " Le diamètre doit être supérieur à 0"
+
+#: dmap2gcode.py:1184 dmap2gcode.py:1274
+msgid " Angle should be between 0 and 180"
+msgstr " Angle doit être compris entre 0 et 180"
+
+#: dmap2gcode.py:1196 dmap2gcode.py:1208 dmap2gcode.py:1286 dmap2gcode.py:1298
+msgid " Feed should be greater than 0 "
+msgstr " L'alimentaiton doit être supérieure à 0"
+
+#: dmap2gcode.py:1220 dmap2gcode.py:1310
+msgid " Stepover should be greater than 0 "
+msgstr " L'enjambement doit être supérieur à 0"
+
+#: dmap2gcode.py:1232
+msgid " Z safe should be greater than 0 "
+msgstr " La securité Z doit être supérieur à 0"
+
+#: dmap2gcode.py:1244
+msgid " Max depth should be less than 0 "
+msgstr " La profondeur maximale doit être inférieure à 0"
+
+#: dmap2gcode.py:1322
+msgid " Roughing offset should be greater than or equal to 0 "
+msgstr " Ebauche de décalage doit être supérieure ou égale à 0"
+
+#: dmap2gcode.py:1334
+msgid " Roughing depth per pass should be greater than or equal to 0 "
+msgstr " L'ébauche de profondeur par passe doit être supérieure ou égale à 0"
+
+#: dmap2gcode.py:1350
+msgid " Tolerance should be greater than 0 "
+msgstr " La tolérance doit être supérieure à 0"
+
+#: dmap2gcode.py:1362
+msgid " Contact angle should be between 0 and 90 "
+msgstr " Angle de contact doit être comprise entre 0 et 90"
+
+#: dmap2gcode.py:1405
+msgid " Entry Error Detected: Check Entry Values in General Settings Window "
+msgstr ""
+" Entrée Erreur détectée: Vérifiez les valeurs d'entrée dans Paramètres "
+"généraux Fenêtre"
+
+#: dmap2gcode.py:1408
+msgid " Entry Error Detected: Check Entry Values in Main Window "
+msgstr ""
+" Entrée Erreur détectée: Vérifiez les valeurs d'entrée dans la fenêtre "
+"principale"
+
+#: dmap2gcode.py:1411
+msgid " Entry Error Detected: Check Entry Values in Roughing Settigns Window "
+msgstr ""
+" Entrée Erreur détectée: Vérifiez les valeurs d'entrée dans la fenêtre "
+"Paramètres Ebauche"
+
+#: dmap2gcode.py:1477
+#, python-format
+msgid "Unable to open file: %s"
+msgstr "Impossible d'ouvrir le fichier: %s"
+
+#: dmap2gcode.py:1576
+#, python-format
+msgid "Image file not found: %s "
+msgstr "Image non valable: %s "
+
+#: dmap2gcode.py:1596
+#, python-format
+msgid "Image file not found: %s"
+msgstr "Image non valable: %s"
+
+#: dmap2gcode.py:1599
+#, python-format
+msgid "Image file: %s "
+msgstr "Fichier image: %s "
+
+#: dmap2gcode.py:1630
+#, python-format
+msgid "Unable to Open Image file: %s"
+msgstr "Impossible d’ouvrir le fichier image: %s"
+
+#: dmap2gcode.py:1690
+msgid "Preparing Image Data"
+msgstr "Préparation donnée d’image"
+
+#: dmap2gcode.py:1694
+msgid "Stop Calculation"
+msgstr "Stop calcul"
+
+#: dmap2gcode.py:1699
+msgid "Saving File"
+msgstr "Sauve Fichier"
+
+#: dmap2gcode.py:1714 dmap2gcode.py:3718
+msgid "Unable to create temporary icon file."
+msgstr "Impossible de crée un fichier icône temporaire"
+
+#: dmap2gcode.py:1722
+msgid "skipping g-code line:"
+msgstr "sauter la ligne g-Code"
+
+#: dmap2gcode.py:1722
+msgid "; may be due to non ASCII character."
+msgstr "; peut être due à caractère non ASCII."
+
+#: dmap2gcode.py:1726
+#, python-format
+msgid "File Saved: %s"
+msgstr "Fichier enregistrer: %s"
+
+#: dmap2gcode.py:1729
+msgid "File Save Terminated"
+msgstr "Enregistrement de fichier terminé"
+
+#: dmap2gcode.py:2149
+msgid "Units"
+msgstr "Unité"
+
+#: dmap2gcode.py:2161
+msgid "tolerance"
+msgstr "tolérance"
+
+#: dmap2gcode.py:2172
+msgid "G Code Header"
+msgstr "En-tête G Code"
+
+#: dmap2gcode.py:2179
+msgid "G Code Postscript"
+msgstr "Bas de page G Code"
+
+#: dmap2gcode.py:2186
+msgid "Lace Bounding"
+msgstr "Dentelle Reliure"
+
+#: dmap2gcode.py:2193
+msgid "LB Contact Angle"
+msgstr "Angle de contact LB"
+
+#: dmap2gcode.py:2205
+msgid "Offset Stepover"
+msgstr "Pas d'enjambée"
+
+#: dmap2gcode.py:2209
+msgid "None"
+msgstr "Aucun"
+
+#: dmap2gcode.py:2214
+msgid "1/2 Step"
+msgstr "1/2 Pas"
+
+#: dmap2gcode.py:2219
+msgid "1/4 Step"
+msgstr "1/4 Pas"
+
+#: dmap2gcode.py:2228
+msgid "Plunge Type"
+msgstr "Type de plongée"
+
+#: dmap2gcode.py:2230
+msgid "Vertical"
+msgstr "Vertical"
+
+#: dmap2gcode.py:2234
+msgid "Arc"
+msgstr "Arc"
+
+#: dmap2gcode.py:2240
+msgid "Disable G-Code Arcs"
+msgstr "Désactiver les arcs G Code"
+
+#: dmap2gcode.py:2251
+msgid "Suppress Comments"
+msgstr "Supprime les commentaires"
+
+#: dmap2gcode.py:2259
+msgid "Configuration File"
+msgstr "Fichier de configuration"
+
+#: dmap2gcode.py:2262
+msgid "Save"
+msgstr "Enregistrer"
+
+#: dmap2gcode.py:2272 dmap2gcode.py:2449
+msgid "Close"
+msgstr "Fermer"
+
+#: dmap2gcode.py:2321
+msgid "Roughing Tool Properties:"
+msgstr "Propriétés de l'outil d’Ebauche:"
+
+#: dmap2gcode.py:2323
+msgid "Roughing Tool End"
+msgstr "Fin d’outil d’ébauche"
+
+#: dmap2gcode.py:2329
+msgid "Roughing Tool DIA"
+msgstr "Diam. outil d’ébauche"
+
+#: dmap2gcode.py:2345
+msgid "Roughing V-Bit Angle"
+msgstr "Angle V-Bit d’ébauche"
+
+#: dmap2gcode.py:2357
+msgid "Roughing Gcode Properties:"
+msgstr "Propriétés G-Code d’ébauche:"
+
+#: dmap2gcode.py:2361
+msgid "Roughing Scan Pattern"
+msgstr "Motif Ebauche du modèle"
+
+#: dmap2gcode.py:2368
+msgid "Roughing Scan Direction"
+msgstr "Direction de l’ébauche"
+
+#: dmap2gcode.py:2375
+msgid "Roughing Feed Rate"
+msgstr "Vitesse de l’ébauche"
+
+#: dmap2gcode.py:2386
+msgid "Roughing Plunge Feed"
+msgstr "Vit. plongée de l’ébauche"
+
+#: dmap2gcode.py:2397
+msgid "Roughing Stepover"
+msgstr "Enjambée d’ébauche"
+
+#: dmap2gcode.py:2411
+msgid "Roughing Properties:"
+msgstr "Propriété d’ébauche"
+
+#: dmap2gcode.py:2415
+msgid "Roughing Offset"
+msgstr "Offset d’ébauche"
+
+#: dmap2gcode.py:2426
+msgid "Roughing Depth/Pass"
+msgstr "Dépahsage d’ébauche"
+
+#: dmap2gcode.py:2445
+msgid ""
+"Save\n"
+"Roughing G-Code"
+msgstr ""
+"Enregistrer\n"
+"Ebauche G-Code"
+
+#: dmap2gcode.py:3071
+#, python-format
+msgid "%.1f %% ( %.1f Minutes Remaining | %.1f Minutes Total )"
+msgstr "%.1f %% ( %.1f Temps restant [min] | %.1f Temps total [min])"
+
+#: dmap2gcode.py:3701
+msgid "dmap2gcode V"
+msgstr "dmap2gcode V"
+
+#~ msgid "ignore"
+#~ msgstr "ignorer"
+
+#~ msgid "Ball"
+#~ msgstr "boule"
+
+#~ msgid "Rows"
+#~ msgstr "Rangée"
+
+#~ msgid "Alternating"
+#~ msgstr "Alternatif"
+
+#~ msgid "Default"
+#~ msgstr "Défaut"
+
+#~ msgid "in"
+#~ msgstr "dans"
+
+#~ msgid "simple"
+#~ msgstr "simple"
+
+#~ msgid "grey"
+#~ msgstr "gris"
+
+#~ msgid "<Return>"
+#~ msgstr "Retour"
+
+#~ msgid "Flat"
+#~ msgstr "A plat"
+
+#~ msgid "Columns"
+#~ msgstr "Colonne"
+
+#~ msgid "R then C"
+#~ msgstr "L et C"
+
+#~ msgid "C then R"
+#~ msgstr "C et L"
+
+#~ msgid "Positive"
+#~ msgstr "Positif"
+
+#~ msgid "Negative"
+#~ msgstr "Négatif"
+
+#~ msgid "Up Mill"
+#~ msgstr "Fraisage sur"
+
+#~ msgid "Down Mill"
+#~ msgstr "Fraisage sous"
+
+#~ msgid "cascade"
+#~ msgstr "Cascade"
+
+#~ msgid "diatool"
+#~ msgstr "Diam. Outil"
+
+#~ msgid "origin"
+#~ msgstr "original"
+
+#~ msgid "tool"
+#~ msgstr "outil"
+
+#~ msgid "plunge"
+#~ msgstr "Plongée"
+
+#~ msgid "feed"
+#~ msgstr "alimenter"
+
+#~ msgid "lace"
+#~ msgstr "dentelle"
+
+#~ msgid "cangle"
+#~ msgstr "cangle"
+
+#~ msgid "splitstep"
+#~ msgstr "GlisseTemps"
+
+#~ msgid "scanpat"
+#~ msgstr "Scan tapotter"
+
+#~ msgid "scandir"
+#~ msgstr "Direction Scan"
+
+#~ msgid "imagefile"
+#~ msgstr "Fichier image"
+
+#~ msgid "G-Code Files"
+#~ msgstr "Fichier Gcode"
