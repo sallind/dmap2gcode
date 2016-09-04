@@ -73,6 +73,9 @@
 """
 version = '0.10'
 
+import sys
+VERSION = sys.version_info[0]
+
 # For the translation by Daniel Sallin Debut
 # Use translate_("txt") for translate the "txt" string
 # Using gettext for translate 
@@ -89,8 +92,6 @@ def translate_(txt):
     return unicode(_(txt),'utf-8')
 # For the translation by Daniel Sallin fin
 
-import sys
-VERSION = sys.version_info[0]
 
 if VERSION == 3:
     from tkinter import *
@@ -111,7 +112,7 @@ if VERSION < 3 and sys.version_info[1] < 6:
 try:
     import psyco
     psyco.full()
-    fmessage(translate_("(Psyco Loaded)",'utf-8')));
+    fmessage(translate_("(Psyco Loaded)",'utf-8'));
     pass
 except:
     pass
@@ -133,12 +134,12 @@ if PIL == True:
         from PIL import ImageOps
         import _imaging
     except:
-        PIL = False
+        #PIL = False
         # The following was deleted because it caused more problems than it solved
-        #try:
-        #    from PIL.Image import core as _imaging # for debian jessie
-        #except:
-        #    PIL = False
+        try:
+            from PIL.Image import core as _imaging # for debian jessie
+        except:
+            PIL = False
 
 NUMPY = True
 if NUMPY == True:
