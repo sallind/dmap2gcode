@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-04 12:07+0200\n"
-"PO-Revision-Date: 2016-09-04 12:18+0200\n"
+"PO-Revision-Date: 2016-12-16 21:07+0100\n"
 "Last-Translator: Daniel Sallin <info@daniel-stp.fr>\n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -153,7 +153,7 @@ msgstr "Vitesse plongée"
 
 #: dmap2gcode.py:540
 msgid "Stepover"
-msgstr "Enjambée"
+msgstr "Pas d’avance"
 
 #: dmap2gcode.py:547
 msgid "Z Safe"
@@ -316,7 +316,7 @@ msgstr " L'alimentaiton doit être supérieure à 0"
 
 #: dmap2gcode.py:1220 dmap2gcode.py:1310
 msgid " Stepover should be greater than 0 "
-msgstr " L'enjambement doit être supérieur à 0"
+msgstr " Le pas d’avance doit être supérieur à 0"
 
 #: dmap2gcode.py:1232
 msgid " Z safe should be greater than 0 "
@@ -444,7 +444,7 @@ msgstr "Angle de contact LB"
 
 #: dmap2gcode.py:2205
 msgid "Offset Stepover"
-msgstr "Pas d'enjambée"
+msgstr "Pas d’avance"
 
 #: dmap2gcode.py:2209
 msgid "None"
@@ -496,7 +496,7 @@ msgstr "Propriétés de l'outil d’Ebauche:"
 
 #: dmap2gcode.py:2323
 msgid "Roughing Tool End"
-msgstr "Fin d’outil d’ébauche"
+msgstr "Type d’outil d’ébauche"
 
 #: dmap2gcode.py:2329
 msgid "Roughing Tool DIA"
@@ -528,7 +528,7 @@ msgstr "Vit. plongée de l’ébauche"
 
 #: dmap2gcode.py:2397
 msgid "Roughing Stepover"
-msgstr "Enjambée d’ébauche"
+msgstr "Pas d’avance d’ébauche"
 
 #: dmap2gcode.py:2411
 msgid "Roughing Properties:"
@@ -540,7 +540,7 @@ msgstr "Offset d’ébauche"
 
 #: dmap2gcode.py:2426
 msgid "Roughing Depth/Pass"
-msgstr "Dépahsage d’ébauche"
+msgstr "Dépahsage d’ébauche/Passe"
 
 #: dmap2gcode.py:2445
 msgid ""
@@ -553,7 +553,7 @@ msgstr ""
 #: dmap2gcode.py:3071
 #, python-format
 msgid "%.1f %% ( %.1f Minutes Remaining | %.1f Minutes Total )"
-msgstr "%.1f %% ( %.1f Temps restant [min] | %.1f Temps total [min])"
+msgstr "%.1f %% ( %.1f Minutes restant | %.1f Minute total )"
 
 #: dmap2gcode.py:3701
 msgid "dmap2gcode V"
