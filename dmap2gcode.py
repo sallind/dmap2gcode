@@ -261,44 +261,44 @@ class Application(Frame):
         self.disable_arcs.set(1)
         self.no_comments.set(1)
 
-        self.yscale.set("5.0")
+        self.yscale.set("40.0")
         self.Xscale.set("0")
         self.pixsize.set("0")
         self.toptol.set("-0.005")
 
         self.tool.set("Ball")           # Options are "Ball", "Flat", "V"
         self.scanpat.set("Rows")
-        self.scandir.set("Alternating") # Options are "Alternating",
+        self.scandir.set("Negative") # Options are "Alternating",
                                         #             "Positive"   , "Negative",
                                         #              "Up Mill", "Down Mill"
         self.v_angle.set("45")
-        self.f_feed.set("15")
+        self.f_feed.set("30")
         self.p_feed.set("10")
-        self.stepover.set("0.04")
-        self.z_cut.set("-0.5")
-        self.z_safe.set("0.25")       
-        self.dia.set("0.25")
+        self.stepover.set("0.4")
+        self.z_cut.set("-2")
+        self.z_safe.set("2.25")       
+        self.dia.set("1.00")
         self.scanpat.set("Rows")
-        self.scandir.set("Alternating") # Options are "Alternating", 
+        self.scandir.set("Negative") # Options are "Alternating", 
                                         #             "Positive"   , "Negative",
                                         #              "Up Mill", "Down Mill"
                                         
-        self.ROUGH_TOOL.set("Ball")           # Options are "Ball", "Flat", "V"                                
+        self.ROUGH_TOOL.set("Flat")           # Options are "Ball", "Flat", "V"                                
         self.ROUGH_V_ANGLE.set("45")
-        self.ROUGH_R_FEED.set("15.0")
+        self.ROUGH_R_FEED.set("100.0")
         self.ROUGH_P_FEED.set("10.0")
-        self.ROUGH_STEPOVER.set("0.04")
-        self.ROUGH_DEPTH_PP.set("0.10")
-        self.ROUGH_OFFSET.set("0.02")
-        self.ROUGH_DIA.set("0.25")
+        self.ROUGH_STEPOVER.set("1")
+        self.ROUGH_DEPTH_PP.set("1.00")
+        self.ROUGH_OFFSET.set("0.2")
+        self.ROUGH_DIA.set("3.1")
         self.ROUGH_SCANPAT.set("Rows")
-        self.ROUGH_SCANDIR.set("Alternating") # Options are "Alternating", 
+        self.ROUGH_SCANDIR.set("Negative") # Options are "Alternating", 
                                         #             "Positive"   , "Negative",
                                         #              "Up Mill", "Down Mill"        
 
 
 
-        self.origin.set("Default")      # Options are "Default",
+        self.origin.set("Bot-Left")      # Options are "Default",
                                         #             "Top-Left", "Top-Center", "Top-Right",
                                         #             "Mid-Left", "Mid-Center", "Mid-Right",
                                         #             "Bot-Left", "Bot-Center", "Bot-Right"
